@@ -28,3 +28,7 @@ function onlyDuplicates(str) {
 }
 
 // or
+
+function onlyDuplicates(str) {
+  return str.split('').filter(e => str.indexOf(e) != str.lastIndexOf(e)).join('')
+}
