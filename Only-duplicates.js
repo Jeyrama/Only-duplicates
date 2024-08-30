@@ -26,3 +26,5 @@ function onlyDuplicates(str) {
 	}
   return newArr.join('');
 }
+
+// or
